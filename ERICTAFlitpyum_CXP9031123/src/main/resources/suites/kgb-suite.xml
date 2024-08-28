@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="kgb-suite">
+	<test name="LITPyumKGBSuite" preserve-order="true">
+		<classes>
+			<class name="com.ericsson.nms.litp.taf.test.cases.LITPyumTestRunner">
+			  <methods>
+			    <include name="upgradeERIClitpyumRPM"/>
+			    <include name="runERIClitpyumTests"/>
+			    <include name="parseNosetestsReports"/>
+			  </methods> 
+			</class>
+		</classes>
+	</test>
+</suite>
